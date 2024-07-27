@@ -154,6 +154,7 @@
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -180,6 +181,8 @@
 
 .card__title,
 .card__text {
+    position: relative;
+    z-index: 1;
     color: #FFFFFF;
 }
 
