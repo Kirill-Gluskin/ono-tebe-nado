@@ -64,6 +64,7 @@
 
 /*Section cover*/
 .cover {
+    position: relative;
     padding: 165px 50px 51px;
     margin-bottom: 179px;
     background-repeat: no-repeat;
@@ -85,6 +86,8 @@
 
 .aligned-text {
     display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .aligned-text_center {
@@ -111,6 +114,8 @@
 }
 
 .cover__description-text {
+    position: relative;
+    z-index: 1;
     color: #FFFFFF;
     font-size: 22px;
     line-height: 1.28;
@@ -119,6 +124,8 @@
 }
 
 .bet-button {
+    position: relative;
+    z-index: 1;
     border: 1px #FFFFFF solid;
     padding: 12px 32px;
     color: #FFFFFF;
