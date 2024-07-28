@@ -222,6 +222,15 @@
     margin-bottom: 191px;
 }
 
+.about__column_left {
+    display: flex;
+    justify-content: center;
+}
+
+.about__column_right {
+    padding-top: 133px;
+}
+
 .about__logo {
     position: relative;
     width: 240px;
@@ -238,15 +247,6 @@
     margin: 0 auto;
     width: 148px;
     height: 114px;
-}
-
-.about__column_left {
-    display: flex;
-    justify-content: center;
-}
-
-.about__column_right {
-    padding-top: 133px;
 }
 
 .about__title {
