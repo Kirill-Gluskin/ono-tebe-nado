@@ -209,9 +209,9 @@
 /*Section about*/
 .about {
     display: grid;
-    grid-template-columns: 310px 1fr;
-    column-gap: 35px;
-    margin-bottom: 200px;
+    grid-template-columns: 303px 1fr;
+    column-gap: 41px;
+    margin-bottom: 218px;
 }
 
 .about__column_left {
@@ -253,6 +253,7 @@
 
 .about__text p:first-child {
     padding-bottom: 24px;
+    line-height: 1.24;
 }
 
 /* Footer */
