@@ -35,7 +35,7 @@
     display: block;
     justify-self: center;
     align-self: center;
-    width: 140px;
+    max-width: 140px;
     margin-left: -147px;
 }
 
@@ -68,9 +68,7 @@
     position: relative;
     padding: 165px 50px 51px;
     margin-bottom: 179px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/cover.jpg);
+    background: no-repeat url(../images/cover.jpg) center / cover;
 }
 
 .cover__title {
@@ -78,9 +76,7 @@
     flex-direction: column;
     gap: 20px;
     color: #FFFFFF;
-    font-weight: bold;
-    font-size: 100px;
-    line-height: 115px;
+    font: bold 100px / 115px Raleway, sans-serif;
     letter-spacing: 30px;
     text-transform: uppercase;
 }
@@ -130,10 +126,7 @@
     border: 1px #FFFFFF solid;
     padding: 12px 32px;
     color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 1.25;
+    font: normal 22px / 1.25 Raleway, sans-serif;
     text-transform: uppercase;
     background-color: transparent;
     cursor: pointer;
@@ -170,9 +163,7 @@
     min-height: 563px;
     max-height: 563px;
     padding: 51px 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: no-repeat center / cover;
 }
 
 .card_type_film {
@@ -195,10 +186,9 @@
 }
 
 .card__title {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 1.2;
+    font: bold 22px / 1.2 Raleway, sans-serif;
     text-decoration-line: underline;
+    text-underline-position: under;
     text-transform: uppercase;
 }
 
@@ -247,14 +237,12 @@
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 148px;
+    max-width: 148px;
     height: 114px;
 }
 
 .about__title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 1;
+    font: bold 40px / 1 Raleway, sans-serif;
     text-transform: uppercase;
     padding-bottom: 100px;
 }
@@ -276,9 +264,7 @@
 }
 
 .footer__address {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.35;
+    font: normal 18px / 1.35 Raleway, sans-serif;
 }
 
 .footer__menu {
@@ -305,6 +291,6 @@
 }
 
 .footer__social-icon {
-    width: 48px;
-    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
 }
