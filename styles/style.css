@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1.6fr 1.7fr 1.1fr;
     align-items: center;
-    padding: 92px 26px 96px;
+    padding: 92px 26px 89px;
 }
 
 .header__links-list {
@@ -67,7 +67,7 @@
 .cover {
     position: relative;
     padding: 165px 50px 51px;
-    margin-bottom: 179px;
+    margin-bottom: 178px;
     background: no-repeat url(../images/cover.jpg) center / cover;
 }
 
@@ -139,7 +139,7 @@
 
 /*Section lots*/
 .lots {
-    margin-bottom: 168px;
+    margin-bottom: 170px;
 }
 .lots__heading {
     font-weight: bold;
@@ -210,8 +210,8 @@
 .about {
     display: grid;
     grid-template-columns: 310px 1fr;
-    column-gap: 38px;
-    margin-bottom: 191px;
+    column-gap: 35px;
+    margin-bottom: 200px;
 }
 
 .about__column_left {
@@ -220,7 +220,7 @@
 }
 
 .about__column_right {
-    padding-top: 109px;
+    padding-top: 106px;
 }
 
 .about__logo {
@@ -272,7 +272,12 @@
     text-transform: lowercase;
 }
 
+.footer__menu-list {
+    padding-left: 38px;
+}
+
 .footer__menu-link {
+    font-size: 18px;
     text-decoration: underline;
     text-underline-position: under;
 }
