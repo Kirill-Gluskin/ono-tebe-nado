@@ -139,7 +139,7 @@
 
 /*Section lots*/
 .lots {
-    margin-bottom: 170px;
+    margin-bottom: 182px;
 }
 .lots__heading {
     font-weight: bold;
@@ -209,9 +209,9 @@
 /*Section about*/
 .about {
     display: grid;
-    grid-template-columns: 1fr 706px;
-    column-gap: 39px;
-    margin-bottom: 195px;
+    grid-template-columns: 1fr 693px;
+    column-gap: 25px;
+    margin-bottom: 181px;
 }
 
 .about__column_left {
