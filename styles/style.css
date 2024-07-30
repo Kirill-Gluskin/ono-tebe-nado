@@ -141,6 +141,7 @@
 .lots {
     margin-bottom: 182px;
 }
+
 .lots__heading {
     font-weight: bold;
     font-size: 40px;
@@ -161,7 +162,6 @@
     justify-content: space-between;
     width: auto;
     min-height: 563px;
-    max-height: 563px;
     padding: 51px 40px;
     background: no-repeat center / cover;
 }
@@ -178,14 +178,10 @@
     background-image: url(../images/card-lot-03.jpg);
 }
 
-.card__title,
-.card__text {
+.card__title {
     position: relative;
     z-index: 1;
     color: #FFFFFF;
-}
-
-.card__title {
     font: bold 22px / 1.2 Raleway, sans-serif;
     text-decoration-line: underline;
     text-underline-position: under;
@@ -193,6 +189,9 @@
 }
 
 .card__text {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
     font-size: 20px;
     line-height: 1.2;
 }
